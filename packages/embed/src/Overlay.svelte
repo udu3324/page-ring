@@ -87,7 +87,7 @@
         <div class="relative isolate flex h-96 w-72 flex-col">
           <div
             class={[
-              "flex h-10  items-center px-1 transition duration-300 ease-in-out",
+              "flex h-10 items-center px-1 transition duration-300 ease-in-out",
               showDirectory ? "bg-neutral-100" : "bg-white",
             ]}
           >
@@ -163,7 +163,7 @@
           </div>
           <div
             class={[
-              "relative -z-10 min-h-0 flex-1 overflow-y-auto p-1.5 transition",
+              "relative -z-10 min-h-0 flex-1 overflow-y-auto overscroll-contain p-1.5 transition",
               !showDirectory && "-translate-y-4 opacity-0",
             ]}
           >
