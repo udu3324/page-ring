@@ -1,3 +1,10 @@
-<aside role="note">
+---
+interface Props {
+  type?: "info" | "important";
+}
+const { type = "info" }: Props = Astro.props;
+---
+
+<aside data-type={type}>
   <slot />
 </aside>

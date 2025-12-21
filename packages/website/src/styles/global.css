@@ -57,11 +57,18 @@
     @apply my-4 border-2 border-neutral-300 bg-white! p-3 px-4;
   }
 
-  aside[role="note"] {
-    @apply my-4 border-l-2 border-orange-500 bg-orange-100 p-3 px-4 text-orange-700;
+  aside[data-type="info"] {
+    @apply my-4 border border-l-2 border-neutral-300/50 border-l-lime-500 bg-lime-100 p-3 px-4 text-lime-800;
 
     strong {
-      @apply text-orange-800;
+      @apply font-semibold text-lime-900;
+    }
+  }
+  aside[data-type="important"] {
+    @apply my-4 border border-l-2 border-neutral-300/50 border-l-orange-500 bg-orange-100 p-3 px-4 text-orange-800;
+
+    strong {
+      @apply font-semibold text-orange-900;
     }
   }
 
