@@ -63,7 +63,3 @@
   --tw-duration: initial;
   --tw-ease: initial;
 }
-
-@utility z-top {
-  z-index: 9999;
-}

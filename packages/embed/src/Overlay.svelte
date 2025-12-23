@@ -68,14 +68,14 @@
         role="presentation"
         in:fade|global={{ duration: 200 }}
         out:fade|global={{ duration: 200, delay: 100 }}
-        class="z-top fixed inset-0 bg-black/30"
+        class="fixed inset-0 bg-black/30"
         onclick={() => (showDirectory = false)}
       ></div>
     {/if}
     <div
       transition:fly|global={{ duration: 300, easing: cubicOut, x: -4 }}
       class={[
-        "border-border z-top fixed top-6 left-6 border-2 bg-white text-base tracking-normal text-black shadow-lg transition duration-300 ease-in-out",
+        "border-border fixed top-6 left-6 border-2 bg-white text-base tracking-normal text-black shadow-lg transition duration-300 ease-in-out",
         !open && "-translate-x-2 -translate-y-2",
       ]}
     >
@@ -233,5 +233,7 @@
 <style>
   :host {
     user-select: none;
+    position: relative;
+    z-index: calc(infinity);
   }
 </style>
