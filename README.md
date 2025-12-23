@@ -2,7 +2,7 @@
 
 A webring for the personal websites of teens in Hack Club.
 
-_Read more_ (todo: link)
+[Read more](https://pagering.gideon.sh)
 
 ## Packages
 
