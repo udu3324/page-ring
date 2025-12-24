@@ -44,3 +44,8 @@
   name: "p-kac"
   url: "https://pkindustry.org"
   buttonUrl: "https://pkindustry.org/images/PKIButton.png"
+
+- id: byjoysu
+  name: "joy su"
+  url: "https://byjoysu.vercel.app/"
+  buttonUrl: "/buttons/byjoysu.gif"
